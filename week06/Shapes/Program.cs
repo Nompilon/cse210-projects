@@ -18,7 +18,7 @@ class Program
         circle.SetColor("Green");
         circle.SetRadius(4);
         DisplayShapeinformation(circle);
-        
+
         List<Shape> shapes = new List<Shape>();
         shapes.Add(square);
         shapes.Add(rectangle);
@@ -34,7 +34,7 @@ class Program
     public static void DisplayShapeinformation(Shape shape)
     {
     double area = shape.GetArea();
-    Console.WriteLine($"Color: {shape.GetColor()}.");
-    Console.WriteLine($"Area: {area} square meters.");
+    Console.WriteLine($"Color: {shape.GetColor()}");
+    Console.WriteLine($"Area: {area} square meters");
     }
 }

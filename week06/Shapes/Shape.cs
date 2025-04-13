@@ -1,10 +1,10 @@
-public class Shape
+public abstract class Shape
 {
     protected string _color;
 
     public Shape()
     {
-
+        
     }
 
     public string GetColor()
